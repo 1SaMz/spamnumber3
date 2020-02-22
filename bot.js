@@ -25,7 +25,7 @@ client.on('message', msg => {
             }, randomIntFromInterval(1119, 2119))
         }
         if(msg.content.startsWith(`credits`)){
-            if(msg.channel.id !== "680677534957830154") return;
+            if(msg.channel.id !== "680698692076175380") return;
             if(msg.isMentioned(client.user)){
                 farm.set(`farm`, 'blah blah')
                 let args = msg.content.split(` `)
